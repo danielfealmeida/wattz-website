@@ -1,5 +1,6 @@
 const express = require("express");
 const fs = require("fs");
+require('dotenv').config();
 
 const app = express()
 
@@ -10,7 +11,7 @@ let index = fs.readFileSync("public/index-page.html", "utf-8");
 let jsonSubject = fs.readFileSync("subjects.json", `utf-8`);
 let subjectData = JSON.parse(jsonSubject);
 
-app.listen(3000, () => console.log(`> Server listening on port: 3000`))
+app.listen(process.env.PORT || 3000, () => console.log(`> Server listening.`))
 app.use(express.static('public'));
 
 app.use(express.json());
