@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <link rel="stylesheet" href="styles.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="flex-container">
+        <div class="flex-obj">
+            <img src="img/icon.png" alt="wattz" class="icon">
+            <h1>Wattz</h1>
+        </div>
+        <div class="flex-obj">
+            <a href="/home"><li class="ref">Home</li></a>
+            <a href="/study"><li class="ref">Study</li></a>
+            <a href="/index"><li class="ref">Index</li></a>
+        </div>
+    </div>
+    <div class="flex-container" id="click-area">
+        <div class="flex-obj-tall" id="border">
+            <h1 id="content-title">{{title}}</h1>
+            <p id="content-content">{{content}}</p>
+        </div>
+        <div class="flex-obj-tall" id="border">
+            <p id="p-input">
+            Subject: <br/> <select id="input" class="input">
+                <option value="portuguese">Portuguese</option>
+                <option value="english">English</option>
+                <option value="history">History</option>
+                <option value="math">Math</option>
+                <option value="arts">Arts</option>
+                <option value="geography">Geography</option>
+                <option value="spanish">Spanish</option>
+                <option value="PE">PE</option>
+                <option value="science">Science</option>
+                <option value="religion">Religion</option>
+            </select><br/>
+            Lesson: <br/> <input type="number" class="input" id="input2" value="1" min="1""/><br/>
+            </p>
+        </div>
+    </div>
+    <footer>
+        Made by Daniel Fernandes
+    </footer>
+    <script src="resumes.js"></script>
+</body>
+</html>

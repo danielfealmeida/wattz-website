@@ -1,0 +1,52 @@
+{
+    "history": [{},
+    {
+        "content": "Roses are red <br/> Violets are blue <br/> they're actually not <br/> That's not blue",
+        "title": "Poem for the people"
+    }],
+
+    "english": [{}, {
+        "title": "Comparatives",
+        "content": "Comparatives are used to say that something is greater than something."
+    }],
+
+    "math": [{}, {
+        "title": " ",
+        "content": " "
+    }],
+
+    "spanish": [{}, {
+        "title": " ",
+        "content": " "
+    }],
+    
+    "arts": [{}, {
+        "title": " ",
+        "content": " "
+    }],
+
+    "geography": [{}, {
+        "title": " ",
+        "content": " "
+    }],
+
+    "portuguese": [{}, {
+        "title": " ",
+        "content": " "
+    }],
+
+    "PE": [{}, {
+        "title": " ",
+        "content": " "
+    }],
+
+    "science": [{}, {
+        "title": " ",
+        "content": " "
+    }],
+
+    "religion": [{}, {
+        "title": " ",
+        "content": " "
+    }]
+}
