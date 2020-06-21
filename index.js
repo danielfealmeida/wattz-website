@@ -1,6 +1,5 @@
 const express = require("express");
 const fs = require("fs");
-require('dotenv').config();
 
 const app = express()
 
