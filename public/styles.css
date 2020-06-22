@@ -148,6 +148,7 @@ footer {
     }
     .intro-text {
         left: -5%;
+        top: 150px;
         font-size: 25px;
     }
     .intro-text p{
